@@ -35,8 +35,6 @@ collections:
   posts:
     output: true
 
-
-
 # Build settings
 theme: minima
 plugins:
