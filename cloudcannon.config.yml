@@ -1,7 +1,3 @@
-_inputs:
-  date:
-    instance_value: NOW
-
 collections_config:
   posts:
     icon: book
@@ -15,5 +11,8 @@ collections_config:
     schemas:
       default:
         path: schemas/post.md
+    _inputs:
+      date:
+        instance_value: NOW        
 
     
