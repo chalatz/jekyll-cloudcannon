@@ -2,6 +2,9 @@ collections_config:
   posts:
     icon: book
     add_options:
+      - name: Add Post
+        editor: content
+        collection: posts    
       - name: Add Draft
         editor: content
         collection: draft
