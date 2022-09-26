@@ -2,4 +2,5 @@
 title:
 categories:
 author:
+date:
 ---
