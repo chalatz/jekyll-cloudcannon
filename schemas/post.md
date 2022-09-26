@@ -1,6 +1,5 @@
 ---
 title:
-date:
 categories:
 author:
 ---
