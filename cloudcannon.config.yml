@@ -5,3 +5,6 @@ collections_config:
       - name: Add Draft
         editor: content
         collection: draft
+    schemas:
+      default:
+        path: schemas/post.md
