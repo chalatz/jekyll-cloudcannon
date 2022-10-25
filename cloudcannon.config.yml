@@ -4,7 +4,7 @@ collections_config:
     add_options:
       - name: Add Post
         editor: content
-        collection: posts    
+        collection: posts
       - name: Add Draft
         editor: content
         collection: draft
@@ -13,6 +13,10 @@ collections_config:
         path: schemas/post.md
     _inputs:
       date:
-        instance_value: NOW        
-
-    
+        instance_value: NOW
+  resource_pages:
+    schemas:
+      default:
+        name: 'Resources page'
+        path: schemas/resource.md
+        icon: 'Menu Book'
