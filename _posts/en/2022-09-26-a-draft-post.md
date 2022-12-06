@@ -1,4 +1,5 @@
 ---
+_schema: default
 title: A draft post
 categories:
   - test
