@@ -1,5 +1,13 @@
 collections_config:
   posts:
+    add_options:
+      - name: Add Post
+        editor: content
+        schema: post
+      - name: Add Draft
+        editor: content
+        collection: drafts
+        schema: draft
     schemas:
       default:
         path: schemas/post.md
