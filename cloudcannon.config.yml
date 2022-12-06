@@ -3,6 +3,7 @@ collections_config:
     add_options:
       - name: Add Post
         editor: content
+        collection: posts
         schema: post
       - name: Add Draft
         editor: content
