@@ -5,12 +5,21 @@ collections_config:
       - name: Add Post
         editor: content
         collection: posts
+    schemas:
+      default:
+        path: schemas/post.md
+    _inputs:
+      date:
+        instance_value: NOW
+  drafts:
+    icon: bookmark_border
+    add_options:
       - name: Add Draft
         editor: content
         collection: draft
     schemas:
       default:
-        path: schemas/post.md
+        path: schemas/draft.md
     _inputs:
       date:
         instance_value: NOW
