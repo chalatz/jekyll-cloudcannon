@@ -1,6 +1,6 @@
 ---
-title:
-categories:
-author:
-date:
+title: ''
+categories: ''
+author: ''
+date: ''
 ---
