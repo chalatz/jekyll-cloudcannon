@@ -1,3 +1,9 @@
+collection_groups:
+  - heading: "Let's blog!"
+    collections:
+      - posts
+      - drafts
+
 collections_config:
   posts:
     add_options:
