@@ -1,6 +1,5 @@
 ---
-_schema: post
-title: A new test post
+title: A draft post
 categories:
   - test
 author: Chris

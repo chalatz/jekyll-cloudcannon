@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: post
 title: DE - A new test post
 categories:
   - test

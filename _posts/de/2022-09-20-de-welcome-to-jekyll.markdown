@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: post
 title: DE - Welcome to Jekyll!
 date: 2022-09-20 09:00:44
 categories:
