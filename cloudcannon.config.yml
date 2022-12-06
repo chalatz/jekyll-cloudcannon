@@ -6,6 +6,8 @@ collection_groups:
 
 collections_config:
   posts:
+    path: _posts
+    output: true
     add_options:
       - name: Add Post
         editor: content
