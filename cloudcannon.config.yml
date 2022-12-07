@@ -31,11 +31,10 @@ collections_config:
       cta:
         label: CTA
         comment: A CTA group field
-        nested:
-          title:
+          $.title:
             label: Title
             comment: The CTA's title
-          text:
+          $.text:
             label: Text
             comment: The CTA's text
             type: markdown
