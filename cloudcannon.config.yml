@@ -25,3 +25,6 @@ collections_config:
         name: 'Draft Post page'
         path: schemas/draft.md
         icon: 'Menu Book'
+  en_pages:
+    name: EN pages
+    path: en
