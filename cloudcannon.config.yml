@@ -19,3 +19,9 @@ collections_config:
         name: 'Post page'
         path: schemas/post.md
         icon: 'Menu Book'
+  drafts:
+    schemas:
+      default:
+        name: 'Draft Post page'
+        path: schemas/draft.md
+        icon: 'Menu Book'
