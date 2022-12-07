@@ -3,7 +3,9 @@ collection_groups:
     collections:
       - posts
       - drafts
-
+  - heading: People
+    collections:
+      - authors
 collections_config:
   posts:
     path: _posts
@@ -25,9 +27,9 @@ collections_config:
     _inputs:
       date:
         instance_value: NOW
-  resource_pages:
+  authors:
     schemas:
       default:
-        name: 'Resources page'
-        path: schemas/resource.md
+        name: 'Author page'
+        path: schemas/author.md
         icon: 'Menu Book'
