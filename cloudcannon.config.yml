@@ -7,29 +7,15 @@ collection_groups:
     collections:
       - authors
 collections_config:
-  posts:
-    path: _posts
-    output: true
-    add_options:
-      - name: Add Post
-        editor: content
-        collection: posts
-        schema: post
-      - name: Add Draft
-        editor: content
-        collection: drafts
-        schema: draft
-    schemas:
-      default:
-        path: schemas/post.md
-      en:
-        path: schemas/en.md
-    _inputs:
-      date:
-        instance_value: NOW
   authors:
     schemas:
       default:
         name: 'Author page'
         path: schemas/author.md
+        icon: 'Menu Book'
+  posts:
+    schemas:
+      default:
+        name: 'Post page'
+        path: schemas/post.md
         icon: 'Menu Book'
