@@ -22,6 +22,12 @@ collections_config:
         name: 'Post page'
         path: schemas/post.md
         icon: 'Menu Book'
+    _inputs:
+      date:
+        comment: Post date
+        instance_value: NOW
+      layout:
+        hidden: true
   drafts:
     schemas:
       default:
