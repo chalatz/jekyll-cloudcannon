@@ -31,13 +31,13 @@ collections_config:
       cta:
         label: CTA
         comment: A CTA group field
-        $.title:
-          label: Title
-          comment: The CTA's title
-        $.text:
-          label: Text
-          comment: The CTA's text
-          type: markdown
+      cta.title:
+        label: Title
+        comment: The CTA's title
+      cta.text:
+        label: Text
+        comment: The CTA's text
+        type: markdown
   drafts:
     schemas:
       default:
