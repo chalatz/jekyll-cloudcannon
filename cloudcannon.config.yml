@@ -6,6 +6,9 @@ collection_groups:
   - heading: People
     collections:
       - authors
+  - heading: EN Pages
+    collections:
+      - en_pages
 collections_config:
   authors:
     schemas:
