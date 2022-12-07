@@ -28,6 +28,12 @@ collections_config:
         instance_value: NOW
       layout:
         hidden: true
+      cta:
+        label: CTA
+        comment: A CTA group field
+        title:
+          label: Title
+          comment: The CTA's title
   drafts:
     schemas:
       default:
