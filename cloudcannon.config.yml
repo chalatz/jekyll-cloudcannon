@@ -1,6 +1,5 @@
 data_config:
   langs: true
-  region: true
 collection_groups:
   - heading: "Let's blog!"
     collections:
@@ -19,6 +18,8 @@ collections_config:
         name: 'Author page'
         path: schemas/author.md
     icon: save_as
+  en_regions:
+    path: _data/en/region.yml
   posts:
     schemas:
       default:
@@ -38,7 +39,7 @@ collections_config:
       en_region:
         type: select
         options:
-          values: data.region
+          values: en_rgions
       cta:
         label: CTA
         comment: A CTA group field
