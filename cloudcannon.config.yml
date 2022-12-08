@@ -1,3 +1,6 @@
+data_config:
+  langs: true
+
 collection_groups:
   - heading: "Let's blog!"
     collections:
@@ -28,6 +31,10 @@ collections_config:
         instance_value: NOW
       layout:
         hidden: true
+      lang:
+        type: select
+        options:
+          values: data.langs
       cta:
         label: CTA
         comment: A CTA group field
