@@ -12,7 +12,7 @@ collection_groups:
       - en_pages
   - heading: Data
     collections:
-      - EN data
+      - en_dta
 collections_config:
   authors:
     schemas:
