@@ -15,7 +15,7 @@ collections_config:
       default:
         name: 'Author page'
         path: schemas/author.md
-        icon: 'Menu Book'
+    icon: 'Menu Book'
   posts:
     schemas:
       default:
