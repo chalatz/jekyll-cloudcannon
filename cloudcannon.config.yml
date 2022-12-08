@@ -11,6 +11,9 @@ collection_groups:
   - heading: EN Pages
     collections:
       - en_pages
+  - heading: Data
+    collections:
+      - en_regions
 collections_config:
   authors:
     schemas:
