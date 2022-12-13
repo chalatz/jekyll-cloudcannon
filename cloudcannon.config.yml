@@ -76,7 +76,7 @@ collections_config:
       header:
         hidden: true
       layout:
-        type: select:
+        type: select
         options:
           values:
             - page
