@@ -73,11 +73,11 @@ collections_config:
         path: schemas/vocabulary.md
         icon: 'school'
     _inputs:
-    header:
-      hidden: true
-    layout:
-      type: select:
-      options:
-        values:
-          - page
-          - post
+      header:
+        hidden: true
+      layout:
+        type: select:
+        options:
+          values:
+            - page
+            - post
