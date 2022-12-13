@@ -13,6 +13,9 @@ collection_groups:
   - heading: Data
     collections:
       - en_data
+  - heading: Learn
+    collections:
+      - learn_en
 collections_config:
   authors:
     schemas:
@@ -61,3 +64,20 @@ collections_config:
   en_pages:
     name: EN pages
     path: en
+  learn_en:
+    name: Learn EN
+    path: learn
+    schemas:
+      default:
+        name: 'Learn page'
+        path: schemas/vocabulary.md
+        icon: 'school'
+     _inputs:
+      header:
+        hidden: true
+      layout:
+        type: select:
+        options:
+          values:
+            - page
+            - post
