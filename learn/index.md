@@ -1,5 +1,5 @@
 ---
-_schema: vocabulary
+_schema: default
 layout: page
 header: top
 title: Learn index
