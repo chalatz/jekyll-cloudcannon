@@ -7,6 +7,9 @@ collection_groups:
   - heading: People
     collections:
       - authors
+  - heading: Pages
+    collections:
+      - pages
   - heading: EN Pages
     collections:
       - en_pages
