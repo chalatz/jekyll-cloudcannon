@@ -1,5 +1,5 @@
 ---
-_schema: default
+_schema: resource
 layout: page
 header: top
 title: English words
