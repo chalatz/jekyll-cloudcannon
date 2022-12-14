@@ -66,14 +66,13 @@ collections_config:
     path: en
   learn_en:
     name: Learn EN
-    path: learn
+    path: learn/courses
     schemas:
       default:
         name: 'Learn page'
         path: schemas/vocabulary.md
         icon: 'school'
         hide_extra_inputs: true
-        include: 'learn/courses/english-words.md'
     _inputs:
       header:
         hidden: true
