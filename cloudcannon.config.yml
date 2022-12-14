@@ -49,7 +49,7 @@ collections_config:
       en_region:
         type: select
         options:
-          values: collections.en_region
+          values: data.en.region
       cta:
         label: CTA
         comment: A CTA group field
