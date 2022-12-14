@@ -7,4 +7,4 @@ desc: Desc
 vacabulary: english
 lang: en
 ---
-Hello from Learn index page
+Hello from Learn index page.
