@@ -83,7 +83,7 @@ collections_config:
             - page
             - post
       desc:
-        type: markdown
+        type: text
         comment: 'This is the decription'
       target_lang:
         type: select
