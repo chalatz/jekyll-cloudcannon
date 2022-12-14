@@ -1,8 +1,8 @@
 ---
+_schema:
 layout:
 header:
 title:
 desc:
-vacabulary:
-lang:
+target_lang:
 ---

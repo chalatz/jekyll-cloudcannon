@@ -1,4 +1,5 @@
 ---
+_schema: vocabulary
 layout: page
 header: top
 title: Learn index
