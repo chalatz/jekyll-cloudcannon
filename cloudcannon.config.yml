@@ -82,3 +82,10 @@ collections_config:
           values:
             - page
             - post
+      target_lang:
+        type: select
+        options:
+          values:
+            - en
+            - es
+            - fr
