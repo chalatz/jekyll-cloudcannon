@@ -23,6 +23,9 @@ collections_config:
         name: 'Author page'
         path: schemas/author.md
     icon: save_as
+    _inputs:
+      name:
+        comment: 'The full name please'
   en_data:
     path: _data/en
   posts:
