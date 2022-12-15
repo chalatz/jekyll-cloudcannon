@@ -36,30 +36,30 @@ collections:
   authors:
     output: true
 
-defaults:
-  -
-    scope:
-      path: "learn"
-    values:
-      _inputs:
-        header:
-          hidden: true
-        layout:
-          type: select
-          options:
-            values:
-              - page
-              - post
-        desc:
-          type: text
-          comment: 'This is the decription'
-        target_lang:
-          type: select
-          options:
-            values:
-              - en
-              - es
-              - fr
+# defaults:
+#   -
+#     scope:
+#       path: "learn"
+#     values:
+#       _inputs:
+#         header:
+#           hidden: true
+#         layout:
+#           type: select
+#           options:
+#             values:
+#               - page
+#               - post
+#         desc:
+#           type: text
+#           comment: 'This is the decription'
+#         target_lang:
+#           type: select
+#           options:
+#             values:
+#               - en
+#               - es
+#               - fr
 
 # Build settings
 theme: minima
