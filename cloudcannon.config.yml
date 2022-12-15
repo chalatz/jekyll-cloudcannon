@@ -20,8 +20,6 @@ collection_groups:
     collections:
       - learn_en
 collections_config:
-  en_region:
-    path: _data/en/region.yml
   authors:
     schemas:
       default:
@@ -52,7 +50,7 @@ collections_config:
       en_region:
         type: select
         options:
-          values: data.en.region
+          values: data.en_regions
       cta:
         label: CTA
         comment: A CTA group field
