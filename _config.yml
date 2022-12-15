@@ -57,6 +57,10 @@ defaults:
           type: select
           options:
             values: data.target_langs
+        cats:
+          type: select
+          options:
+            values: data.en_cats
 
 # Build settings
 theme: minima
