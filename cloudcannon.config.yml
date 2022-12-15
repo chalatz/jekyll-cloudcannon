@@ -85,4 +85,4 @@ collections_config:
       target_lang:
         type: select
         options:
-          values: data.langs
+          values: data.target_langs
