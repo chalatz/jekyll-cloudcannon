@@ -81,8 +81,8 @@ collections_config:
         path: schemas/vocabulary.md
         icon: 'school'
         hide_extra_inputs: true
-    _inputs:
-      target_lang:
-        type: select
-        options:
-          values: data.target_langs
+    # _inputs:
+    #   target_lang:
+    #     type: select
+    #     options:
+    #       values: data.target_langs
