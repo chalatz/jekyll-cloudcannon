@@ -60,7 +60,7 @@ defaults:
         cats:
           type: select
           options:
-            values: data.cats
+            values: data.en_cats
 
 # Build settings
 theme: minima
