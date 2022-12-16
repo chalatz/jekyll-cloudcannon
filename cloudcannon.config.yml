@@ -1,4 +1,16 @@
 data_config: true
+
+_structures:
+  author_info:
+    values:
+      - value:
+          name:
+          bio:
+    _inputs:
+      bio:
+        type: markdown
+        comment: Your bio please.
+
 collection_groups:
   - heading: "Let's blog!"
     collections:
@@ -29,6 +41,10 @@ collections_config:
     _inputs:
       name:
         comment: 'The full name please'
+      person:
+        type: array
+        options:
+        structures: _structures.author_info
   en_data:
     path: _data/en
   posts:
