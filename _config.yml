@@ -61,7 +61,10 @@ defaults:
           type: select
           options:
             values: data.en_cats
-
+        person:
+          type: array
+          options:
+            structures: _structures.author_info
 # Build settings
 theme: minima
 plugins:
