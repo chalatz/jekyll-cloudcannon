@@ -2,6 +2,6 @@
 name:
 title:
 person:
-  - image:
-    bio:
+  - name: Chris
+    bio: my bio
 ---
