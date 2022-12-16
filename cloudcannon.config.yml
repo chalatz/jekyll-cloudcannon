@@ -6,10 +6,10 @@ _structures:
       - value:
           name:
           bio:
-    _inputs:
-      bio:
-        type: markdown
-        comment: Your bio please.
+        _inputs:
+          bio:
+            type: markdown
+            comment: Your bio please.
 
 collection_groups:
   - heading: "Let's blog!"
