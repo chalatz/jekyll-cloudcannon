@@ -2,6 +2,6 @@
 name:
 title:
 person:
-  name:
-  bio:
+  - name:
+    bio:
 ---
