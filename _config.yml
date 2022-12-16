@@ -41,6 +41,16 @@ defaults:
     scope:
       path: "learn"
     values:
+      _structures:
+        author_info:
+          values:
+            - value:
+                name:
+                bio:
+              _inputs:
+                bio:
+                  type: markdown
+                  comment: Your bio please.
       _inputs:
         header:
           hidden: true
