@@ -41,16 +41,16 @@ collection_groups:
       - learn_en
 collections_config:
   pages:
-    path: ''
+    path: '/'
     schemas:
       default:
         path: schemas/page.md
       learn_index:
         path: schemas/learn-index.md
-    # filter:
-    #   base: none
-    #   include:
-    #     - learn-index.md
+    filter:
+      base: none
+      include:
+        - learn-index.md
   authors:
     schemas:
       default:
