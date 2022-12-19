@@ -29,7 +29,7 @@ collection_groups:
       - authors
   - heading: Pages
     collections:
-      - the_pages
+      - pages
   - heading: EN Pages
     collections:
       - en_pages
@@ -40,7 +40,7 @@ collection_groups:
     collections:
       - learn_en
 collections_config:
-  the_pages:
+  pages:
     path: ''
     schemas:
       default:
