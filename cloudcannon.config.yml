@@ -47,10 +47,10 @@ collections_config:
         path: schemas/page.md
       learn_index:
         path: schemas/learn-index.md
-    filter:
-      base: none
-      include:
-        - learn-index.md
+    # filter:
+    #   base: none
+    #   include:
+    #     - learn-index.md
   authors:
     schemas:
       default:
