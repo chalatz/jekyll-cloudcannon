@@ -32,6 +32,12 @@ collection_groups:
     collections:
       - learn_en
 collections_config:
+  pages:
+    schemas:
+      default:
+        path: schemas/page.md
+      learn_index:
+        path: schemas/learn-index.md
   authors:
     schemas:
       default:
@@ -88,7 +94,7 @@ collections_config:
     path: en
   learn_en:
     name: Learn EN
-    path: learn
+    path: learn/resources
     schemas:
       default:
         name: 'Learn page'
