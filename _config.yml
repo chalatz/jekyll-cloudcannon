@@ -36,49 +36,50 @@ collections:
   authors:
     output: true
 
-defaults:
-  -
-    scope:
-      path: "learn"
-    values:
-      _structures:
-        author_info:
-          values:
-            - value:
-                name:
-                bio:
-              _inputs:
-                bio:
-                  type: markdown
-                  comment: Your bio please.
-      _inputs:
-        header:
-          hidden: true
-        layout:
-          type: select
-          options:
-            values:
-              - page
-              - post
-        desc:
-          type: text
-          comment: 'This is the decription'
-        target_lang:
-          type: select
-          options:
-            values: data.target_langs
-        cats:
-          type: select
-          options:
-            values: data.en_cats
-        person:
-          type: array
-          options:
-            structures: _structures.author_info
+# defaults:
+#   -
+#     scope:
+#       path: "learn"
+#     values:
+#       _structures:
+#         author_info:
+#           values:
+#             - value:
+#                 name:
+#                 bio:
+#               _inputs:
+#                 bio:
+#                   type: markdown
+#                   comment: Your bio please.
+#       _inputs:
+#         header:
+#           hidden: true
+#         layout:
+#           type: select
+#           options:
+#             values:
+#               - page
+#               - post
+#         desc:
+#           type: text
+#           comment: 'This is the decription'
+#         target_lang:
+#           type: select
+#           options:
+#             values: data.target_langs
+#         cats:
+#           type: select
+#           options:
+#             values: data.en_cats
+#         person:
+#           type: array
+#           options:
+#             structures: _structures.author_info
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - cloudcannon-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.

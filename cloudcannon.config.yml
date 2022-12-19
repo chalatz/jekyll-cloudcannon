@@ -95,6 +95,31 @@ collections_config:
         path: schemas/vocabulary.md
         icon: 'school'
         hide_extra_inputs: true
+    _inputs:
+      header:
+        hidden: true
+      layout:
+        type: select
+        options:
+          values:
+            - page
+            - post
+      desc:
+        type: text
+        comment: 'This is the decription'
+      target_lang:
+        type: select
+        options:
+          values: data.target_langs
+      cats:
+        type: select
+        options:
+          values: data.en_cats
+      person:
+        type: array
+        options:
+          structures: _structures.author_info
+
     # _inputs:
     #   target_lang:
     #     type: select
