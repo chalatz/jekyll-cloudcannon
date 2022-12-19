@@ -10,7 +10,15 @@ _structures:
           bio:
             type: markdown
             comment: Your bio please.
-
+  methods_items:
+    values:
+      - value:
+          title:
+          text:
+        _inputs:
+          text:
+            type: markdown
+            comment: Item Desc Space
 collection_groups:
   - heading: "Let's blog!"
     collections:
