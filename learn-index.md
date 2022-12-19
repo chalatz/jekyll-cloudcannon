@@ -9,7 +9,7 @@ layout: page
 header: top
 text: hello hello
 methods:
-  heading:
+  heading: Methods Heading
   items:
     - title: hello 1
       text: hello hello 1
