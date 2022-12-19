@@ -4,6 +4,10 @@ _inputs:
   text:
     comment: Desc space
     type: markdown
+  methods.items:
+    type: array
+    options:
+      structures: _structures.methods_items
 title: hello
 layout: page
 header: top
