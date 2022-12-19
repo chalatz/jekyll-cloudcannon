@@ -41,6 +41,7 @@ collection_groups:
       - learn_en
 collections_config:
   the_pages:
+    path: ''
     schemas:
       default:
         path: schemas/page.md
