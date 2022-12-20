@@ -50,7 +50,7 @@ collections_config:
     filter:
       base: none
       include:
-        - learn-index.md
+        - about.markdown
   authors:
     schemas:
       default:
@@ -107,7 +107,7 @@ collections_config:
     path: en
   learn_en:
     name: Learn EN
-    path: learn/resources
+    path: learn
     schemas:
       default:
         name: 'Learn page'
