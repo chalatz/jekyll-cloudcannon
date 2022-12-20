@@ -114,6 +114,8 @@ collections_config:
         path: schemas/vocabulary.md
         icon: 'school'
         hide_extra_inputs: true
+      learn_index:
+        path: schemas/learn-index.md
     _inputs:
       header:
         hidden: true
