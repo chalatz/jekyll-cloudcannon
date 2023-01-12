@@ -3,7 +3,7 @@ main_content:
   _inputs:
     main_content:
       type: markdown
-        options:
+      options:
         table: true 
         undo: true
         redo: true
