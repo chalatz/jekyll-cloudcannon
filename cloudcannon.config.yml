@@ -146,6 +146,9 @@ collections_config:
     schemas:
       default:
         test_categories: schemas/categories.md
+    _inputs:
+      title:
+        Hello from title
 
     # _inputs:
     #   target_lang:
