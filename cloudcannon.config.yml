@@ -145,15 +145,7 @@ collections_config:
     name: All data
     schemas:
       default:
-        path: schemas/categories.md
-  test_categories:
-    name: test categories
-    schemas:
-      default:
-        path: schemas/categories.md
-    _inputs:
-        title:
-          comment: 'This is the title'
+        test_categories: schemas/categories.md
 
     # _inputs:
     #   target_lang:
