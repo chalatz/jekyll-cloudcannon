@@ -1,6 +1,6 @@
 data_config: true
 _inputs:
-  main_content:
+  content:
     type: markdown
     options:
       table: true 
