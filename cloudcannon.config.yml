@@ -19,6 +19,15 @@ _structures:
           text:
             type: markdown
             comment: Item Desc Space
+  test_cats_items:
+    values:
+      - value:
+          title:
+          text:
+        _inputs:
+          text:
+            type: markdown
+            comment: Cat Desc
 collection_groups:
   - heading: "Let's blog!"
     collections:
@@ -147,8 +156,11 @@ collections_config:
       default:
         test_categories: schemas/categories.md
     _inputs:
-      title:
-        Hello from title
+      test_categories:
+        type: array
+        options:
+          structures: _structures.test_cats_items
+
 
     # _inputs:
     #   target_lang:
