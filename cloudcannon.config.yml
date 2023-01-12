@@ -1,7 +1,7 @@
 data_config: true
 main_content:
   _inputs:
-    main_content:
+    content:
       type: markdown
       options:
         table: true 
