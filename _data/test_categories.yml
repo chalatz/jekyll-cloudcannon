@@ -1,8 +1,2 @@
----
-_schema: test_categories
-_inputs:
-  title:
-    comment: This is the title
----
-- title: Title 1
-  text: Text 1
+title: Title 1_1
+text: Text 1
