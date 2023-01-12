@@ -36,6 +36,7 @@ collection_groups:
   - heading: Data
     collections:
       - en_data
+      - categories
   - heading: Learn
     collections:
       - learn_en
@@ -141,6 +142,7 @@ collections_config:
         options:
           structures: _structures.author_info
   categories:
+    name: Categories
     schemas:
       default:
         path: schemas/categories.md
