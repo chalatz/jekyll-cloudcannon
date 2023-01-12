@@ -140,6 +140,14 @@ collections_config:
         type: array
         options:
           structures: _structures.author_info
+  categories:
+    schemas:
+      default:
+        path: schemas/categories.md
+    _inputs:
+      categories:
+        title:
+          comment: 'This is the title'
 
     # _inputs:
     #   target_lang:
