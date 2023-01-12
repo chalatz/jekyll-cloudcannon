@@ -36,8 +36,8 @@ collection_groups:
   - heading: Data
     collections:
       - en_data
-      - test_categories
-  - heading: Learn
+      - data
+  - heading: All data
     collections:
       - learn_en
 collections_config:
@@ -141,8 +141,13 @@ collections_config:
         type: array
         options:
           structures: _structures.author_info
+  data:
+    name: All data
+    schemas:
+      default:
+        path: schemas/categories.md
   test_categories:
-    name: Categories
+    name: test categories
     schemas:
       default:
         path: schemas/categories.md
