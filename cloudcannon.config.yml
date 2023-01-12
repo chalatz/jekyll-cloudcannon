@@ -68,6 +68,13 @@ collections_config:
       base: none
       include:
         - about.markdown
+    _inputs:
+      content:
+        type: markdown
+        options:
+          table: true 
+          undo: true
+          redo: true
   authors:
     schemas:
       default:
