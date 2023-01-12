@@ -147,7 +147,6 @@ collections_config:
       default:
         path: schemas/categories.md
     _inputs:
-      categories:
         title:
           comment: 'This is the title'
 
