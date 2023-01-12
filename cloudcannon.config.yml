@@ -1,12 +1,12 @@
 data_config: true
 main_content:
-_inputs:
-  main_content:
-    type: markdown
-    options:
-      table: true 
-      undo: true
-      redo: true
+  _inputs:
+    main_content:
+      type: markdown
+        options:
+        table: true 
+        undo: true
+        redo: true
 _structures:
   author_info:
     values:
