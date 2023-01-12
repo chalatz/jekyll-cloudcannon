@@ -4,5 +4,5 @@ _inputs:
   title:
     comment: This is the title
 ---
-title: Title 1
-text: Text 1
+- title: Title 1
+  text: Text 1
