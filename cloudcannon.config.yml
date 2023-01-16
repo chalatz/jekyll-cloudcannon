@@ -7,7 +7,7 @@ main_content:
     content:
       type: markdown
       options:
-        table: true 
+        table: true
         undo: true
         redo: true
 _structures:
@@ -59,6 +59,9 @@ collection_groups:
   - heading: All data
     collections:
       - learn_en
+  - heading: Assets
+    collections:
+      - the_media
 collections_config:
   pages:
     path: '/'
@@ -75,7 +78,7 @@ collections_config:
       content:
         type: markdown
         options:
-          table: true 
+          table: true
           undo: true
           redo: true
   authors:
@@ -93,6 +96,9 @@ collections_config:
           structures: _structures.author_info
   en_data:
     path: _data/en
+  the_media:
+    name: Media
+    path: assets/images
   posts:
     schemas:
       default:
