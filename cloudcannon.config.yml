@@ -1,3 +1,6 @@
+paths:
+  uploads: assets/images
+  dam_uploads: raw
 data_config: true
 main_content:
   _inputs:
