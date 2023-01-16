@@ -98,7 +98,7 @@ collections_config:
     path: _data/en
   the_media:
     name: Media
-    path: assets/images
+    path: assets
   posts:
     schemas:
       default:
