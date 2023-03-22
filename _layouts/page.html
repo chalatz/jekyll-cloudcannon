@@ -14,7 +14,11 @@ layout: default
   </div>
 
   <p>
-    show_it: {{ page.show_it }}
+    {%- assign show_it = true -%}
+    {%- if page.show_it == false -%}
+      {%- assign show_it = false -%}
+    {%- endif -%}
+    show_it: {{ show_it }}
   </p>
 
 </article>
