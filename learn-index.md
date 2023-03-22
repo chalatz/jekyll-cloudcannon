@@ -8,6 +8,8 @@ _inputs:
     type: array
     options:
       structures: _structures.methods_items
+  show_it:
+    type: switch
 title: hello
 layout: page
 header: top
