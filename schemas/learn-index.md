@@ -6,5 +6,5 @@ methods:
   items:
     - title:
       text:
-show_it:
+show_it: true
 ---
