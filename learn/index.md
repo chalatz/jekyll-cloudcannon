@@ -9,5 +9,5 @@ methods:
       text: hello hello 1
     - title: hello 2
       text: hello hello 2
-show_it: false
+show_it: true
 ---
