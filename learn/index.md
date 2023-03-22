@@ -1,7 +1,7 @@
 ---
 _schema: learn_index
 title: hello
-text: hello hello
+text: hello hello hellooooooo
 methods:
   heading: Methods Heading
   items:
