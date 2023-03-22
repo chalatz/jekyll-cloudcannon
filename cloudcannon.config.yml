@@ -10,6 +10,8 @@ main_content:
         table: true
         undo: true
         redo: true
+    show_it:
+      type: switch
 _structures:
   author_info:
     values:
