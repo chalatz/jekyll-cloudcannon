@@ -1,3 +1,4 @@
+---
 show:
 settings:
   global_enable:
@@ -6,3 +7,4 @@ languages:
     enable:
     text:
     mobile_text:
+---
