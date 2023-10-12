@@ -16,12 +16,26 @@ _structures:
   author_info:
     values:
       - value:
-          name:
+          lan:
           bio:
         _inputs:
           bio:
             type: markdown
             comment: Your bio please.
+  banner_items:
+    values:
+      - value:
+          lang:
+          enable:
+          text:
+          mobile_text:
+        _inputs:
+          enable:
+            type: switch
+          text:
+            type: markdown
+          mobile_text:
+            type: markdown
   methods_items:
     values:
       - value:
@@ -115,7 +129,11 @@ collections_config:
         comment: Show it or not
       settings.global_enable:
         type: switch
-        comment: Global switch    
+        comment: Global switch
+      languages:
+        type: array
+        options:
+          structures: _structures.banner_items
   the_media:
     name: Media
     path: assets
