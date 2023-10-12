@@ -61,6 +61,9 @@ collection_groups:
   - heading: All data
     collections:
       - learn_en
+  - heading: Banner
+    collections:
+      - banners_data
   - heading: Assets
     collections:
       - the_media
@@ -101,7 +104,7 @@ collections_config:
   banners_data:
     path: _data/banner
     schemas:
-      default:
+      banner_schema:
         name: 'Banner schema'
         path: schemas/objects-data.md
   the_media:
