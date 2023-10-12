@@ -116,7 +116,6 @@ collections_config:
     name: 'Banners Data'
     path: _data/banner
     schemas:
-      default:
       banner_schema:
         path: schemas/objects-data.md
     filter:
