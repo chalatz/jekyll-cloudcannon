@@ -98,6 +98,12 @@ collections_config:
           structures: _structures.author_info
   en_data:
     path: _data/en
+  banners_data:
+    path: _data/banner
+    schemas:
+      default:
+        name: 'Banner schema'
+        path: schemas/objects-data.md
   the_media:
     name: Media
     path: assets
