@@ -56,7 +56,6 @@ collection_groups:
       - en_pages
   - heading: Data
     collections:
-      - en_data
       - data
       - banners_data
   - heading: All data
