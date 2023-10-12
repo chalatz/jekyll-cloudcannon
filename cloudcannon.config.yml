@@ -189,8 +189,6 @@ collections_config:
         type: array
         options:
           structures: _structures.test_cats_items
-      settings.global_enable:
-        type: switch
   banners_data:
     name: 'Banners Data'
     path: _data/banner
@@ -204,3 +202,4 @@ collections_config:
         comment: Show it or not
       settings.global_enable:
         type: switch
+        comment: Global switch
