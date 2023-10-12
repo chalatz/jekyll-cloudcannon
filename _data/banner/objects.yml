@@ -1,8 +1,5 @@
 ---
 _schema: banner_schema
-_inputs:
-  settings.global_enable:
-    type: switch
 ---
 settings:
   global_enable: true

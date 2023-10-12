@@ -101,12 +101,6 @@ collections_config:
           structures: _structures.author_info
   en_data:
     path: _data/en
-  banners_data:
-    path: _data/banner
-    schemas:
-      banner_schema:
-        name: 'Banner schema'
-        path: schemas/objects-data.md
   the_media:
     name: Media
     path: assets
@@ -188,16 +182,14 @@ collections_config:
     name: All data
     schemas:
       default:
-        test_categories: schemas/categories.md
+        test_categories:
+          path: schemas/categories.md
+      banner_schema:
+        path: schemas/objects-data.md
     _inputs:
       test_categories:
         type: array
         options:
           structures: _structures.test_cats_items
-
-
-    # _inputs:
-    #   target_lang:
-    #     type: select
-    #     options:
-    #       values: data.target_langs
+      settings.global_enable:
+        type: switch
