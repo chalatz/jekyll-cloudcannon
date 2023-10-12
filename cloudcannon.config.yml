@@ -106,6 +106,10 @@ collections_config:
       default:
       banner_schema:
         path: schemas/objects-data.md
+    filter:
+      base: none
+    include:
+      - objects.yml
     _inputs:
       show:
         type: switch
