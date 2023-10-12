@@ -1,0 +1,15 @@
+settings:
+  global_enable: true
+languages:
+  - lang: en
+    enable: true
+    text: >-
+      No tricks, just treats. 🎃 Get **-20%** with the code **BOO20** 👻 Limited-time offer
+    mobile_text: >-
+      Boo! 👻 Get **-20%** with the code **BOO20**
+  - lang: es
+    enable: true
+    text: >-
+      No tricks, just treats. 🎃 Get **-20%** with the code **BOO20** 👻 Limited-time offer
+    mobile_text: >-
+      Boo! 👻 Get **-20%** with the code **BOO20**
