@@ -99,6 +99,20 @@ collections_config:
           structures: _structures.author_info
   en_data:
     path: _data/en
+  banners_data:
+    name: 'Banners Data'
+    path: _data/banner
+    schemas:
+      default:
+      banner_schema:
+        path: schemas/objects-data.md
+    _inputs:
+      show:
+        type: switch
+        comment: Show it or not
+      settings.global_enable:
+        type: switch
+        comment: Global switch    
   the_media:
     name: Media
     path: assets
@@ -189,17 +203,3 @@ collections_config:
         type: array
         options:
           structures: _structures.test_cats_items
-  banners_data:
-    name: 'Banners Data'
-    path: _data/banner
-    schemas:
-      default:
-      banner_schema:
-        path: schemas/objects-data.md
-    _inputs:
-      show:
-        type: switch
-        comment: Show it or not
-      settings.global_enable:
-        type: switch
-        comment: Global switch
