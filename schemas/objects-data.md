@@ -1,3 +1,4 @@
+show:
 settings:
   global_enable:
 languages:

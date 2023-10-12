@@ -1,6 +1,5 @@
 ---
-_schema: banner_schema
----
+show: true
 settings:
   global_enable: true
 languages:

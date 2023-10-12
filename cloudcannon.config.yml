@@ -193,3 +193,16 @@ collections_config:
           structures: _structures.test_cats_items
       settings.global_enable:
         type: switch
+  banners_data:
+    name: Banner Data
+    path: _data/banner
+    schemas:
+      default:
+      banner_schema:
+        path: schemas/objects-data.md
+    _inputs:
+      show:
+        type: switch
+        comment: Show it or not
+      settings.global_enable:
+        type: switch
