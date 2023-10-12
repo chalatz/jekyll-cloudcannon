@@ -58,12 +58,10 @@ collection_groups:
     collections:
       - en_data
       - data
+      - banners_data
   - heading: All data
     collections:
       - learn_en
-  - heading: Banner
-    collections:
-      - banners_data
   - heading: Assets
     collections:
       - the_media
@@ -194,7 +192,7 @@ collections_config:
       settings.global_enable:
         type: switch
   banners_data:
-    name: Banner Data
+    name: 'Banners Data'
     path: _data/banner
     schemas:
       default:
