@@ -5,4 +5,4 @@ permalink: /en/about/
 ---
 This is the EN about page.
 
-Yes it is.
+Yes it is!
