@@ -1,11 +1,7 @@
 ---
-layout: page
 _schema: learn_index
-_inputs:
-  show_it:
-    type: switch
 title: Just learn
-text: hello hello hellooooooo
+text: hello hello helloooo
 methods:
   heading: Methods Heading
   items:
