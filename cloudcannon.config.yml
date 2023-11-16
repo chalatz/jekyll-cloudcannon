@@ -10,16 +10,32 @@ main_content:
         table: true
         undo: true
         redo: true
+    show_it:
+      type: switch
 _structures:
   author_info:
     values:
       - value:
-          name:
+          lan:
           bio:
         _inputs:
           bio:
             type: markdown
             comment: Your bio please.
+  banner_items:
+    values:
+      - value:
+          lang:
+          enable:
+          text:
+          mobile_text:
+        _inputs:
+          enable:
+            type: switch
+          text:
+            type: markdown
+          mobile_text:
+            type: markdown
   methods_items:
     values:
       - value:
@@ -54,8 +70,8 @@ collection_groups:
       - en_pages
   - heading: Data
     collections:
-      - en_data
       - data
+      - banners_data
   - heading: All data
     collections:
       - learn_en
@@ -96,6 +112,27 @@ collections_config:
           structures: _structures.author_info
   en_data:
     path: _data/en
+  banners_data:
+    name: 'Banners Data'
+    path: _data/banner
+    schemas:
+      banner_schema:
+        path: schemas/objects-data.md
+    filter:
+      base: none
+    include:
+      - objects.yml
+    _inputs:
+      show:
+        type: switch
+        comment: Show it or not
+      settings.global_enable:
+        type: switch
+        comment: Global switch
+      languages:
+        type: array
+        options:
+          structures: _structures.banner_items
   the_media:
     name: Media
     path: assets
@@ -177,16 +214,12 @@ collections_config:
     name: All data
     schemas:
       default:
-        test_categories: schemas/categories.md
+        test_categories:
+          path: schemas/categories.md
+      banner_schema:
+        path: schemas/objects-data.md
     _inputs:
       test_categories:
         type: array
         options:
           structures: _structures.test_cats_items
-
-
-    # _inputs:
-    #   target_lang:
-    #     type: select
-    #     options:
-    #       values: data.target_langs
