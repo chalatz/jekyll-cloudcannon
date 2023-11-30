@@ -38,6 +38,10 @@ _editables:
     snippet: true
 commit_templates:
   - template_string: "{message|trim}"
+_inputs:
+  markdown:
+    comment: Content in markdown
+    styles: /css/editor.css
 paths:
   uploads: assets/images
   dam_uploads: raw
