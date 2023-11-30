@@ -7,3 +7,8 @@ layout: post
 cta: {}
 ---
 I <span class="big-blue-text">should </span>have a layout field.
+
+I am a callout.
+{: .callout}
+
+![](/assets/images/480x480.png)
