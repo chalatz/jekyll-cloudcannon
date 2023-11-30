@@ -1,9 +1,9 @@
 ---
 _schema: default
 title: Another post
-categories:
 author:
 date: 2022-12-07 11:05:01
 layout: post
+cta: {}
 ---
-I should have a layout field.
+I <span class="big-blue-text">should </span>have a layout field.
