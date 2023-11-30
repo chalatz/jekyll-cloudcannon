@@ -50,6 +50,7 @@ main_content:
         table: true
         undo: true
         redo: true
+        styles: /css/editor.css
     show_it:
       type: switch
 _structures:
