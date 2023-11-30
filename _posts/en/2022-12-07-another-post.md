@@ -5,6 +5,8 @@ author:
 date: 2022-12-07 11:05:01
 layout: post
 cta: {}
+markdown:
+  Text in markdown
 ---
 I <span class="big-blue-text">should </span>have a layout field.
 
