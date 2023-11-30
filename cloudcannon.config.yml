@@ -5,6 +5,7 @@ _editables:
     format: p h3
     undo: true
     redo: true
+    styles: /css/editor.css
   content:
     blockquote: true
     bold: true
