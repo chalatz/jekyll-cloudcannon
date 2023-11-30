@@ -1,3 +1,5 @@
+commit_templates:
+  - template_string: "{message|trim}"
 paths:
   uploads: assets/images
   dam_uploads: raw
