@@ -4,9 +4,8 @@ title: Another post
 author:
 date: 2022-12-07 11:05:01
 layout: post
+markdown: Text in markdown. <span class="no-wrap">wea re one</span>
 cta: {}
-markdown:
-  Text in markdown
 ---
 I <span class="big-blue-text">should </span>have a layout field.
 
