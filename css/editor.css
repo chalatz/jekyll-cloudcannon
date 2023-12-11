@@ -13,6 +13,7 @@ p.callout {
 
   span.no-wrap {
     white-space: nowrap;
+    background-color: lightblue;
   }
   
   /* Applied to content, excluded from style dropdown */
