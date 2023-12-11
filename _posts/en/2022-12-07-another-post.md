@@ -4,7 +4,7 @@ title: Another post
 author:
 date: 2022-12-07 11:05:01
 layout: post
-markdown: Text in markdown. <span class="no-wrap">wea re one</span>
+markdown: Text in markdown. <span class="no-wrap">we are one</span>
 cta: {}
 ---
 I <span class="big-blue-text">should </span>have a layout field.
