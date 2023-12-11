@@ -10,6 +10,10 @@ p.callout {
     font-size: 2rem;
     color: blue;
   }
+
+  span.no-wrap {
+    white-space: nowrap;
+  }
   
   /* Applied to content, excluded from style dropdown */
   h2 {
