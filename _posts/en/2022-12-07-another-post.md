@@ -9,6 +9,8 @@ cta: {}
 ---
 I <span class="big-blue-text">should </span>have a layout field.
 
+<span class="no-wrap">We are one.</span>
+
 I am a callout.
 {: .callout}
 
